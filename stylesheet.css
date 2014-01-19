@@ -1,3 +1,10 @@
 body {
-	background-color: red;
+	text-align: center;
+    background: url("http://this-world-is.boldlygoingnowhere.org/andinet/wordpress/wp-content/gallery/photo-phriday-8-mountains/ws_mountains_peaks_2560x1600.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    color: white;
+    font-family: Helvetica;
 }
