@@ -1,7 +1,8 @@
 <script src="//connect.soundcloud.com/sdk.js"></script>
 <script>
   SC.initialize({
-    client_id: "3c3a197086ee7f26076791b59c4a64fa"
+    client_id: "3c3a197086ee7f26076791b59c4a64fa",
+    redirect_uri: 'http://connect.soundcloud.com/examples/callback.html'
   });
 
   $("#loadTracks").live("click", function(){
