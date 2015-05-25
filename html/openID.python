@@ -8,6 +8,7 @@ from social.exceptions import AuthFailed
 
 
 USER_INFO = 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?'
+SOCIAL_AUTH_STEAM_API_KEY = '9C98DDC37BE011F260C67943E917BB5C'
 
 
 class SteamOpenId(OpenIdAuth):
